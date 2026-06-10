@@ -54,21 +54,47 @@ a:hover {
 
 <!-- body - inizio --------------------------------------------------------------------------------------------->
 
-<div style="text-align:center; color:#E0F1FF; font-family:Verdana; font-size:30px; font-weight:bold; line-height:1.4; margin-top:25px;">
+<div style="text-align:center; color:#E0F1FF; font-family:Verdana; font-size:18; line-height:1.4; margin-top:25px;">
 	Per qualsiasi commento o richiesta di informazioni contattaci, ti risponderemo il prima possibile.
 </div>
 
-<div style="height:30px;"></div>
+<div style="height:60px;"></div>
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr valign="top">
 
   <!-- COLONNA 1: IMMAGINI -->
   <td width="600">
-    <div>
-      <a href="./cariola.jpg">
-        <img src="./basso rilievo.jpg" width="600" height="375" alt="clicca per scoprire i pinarella">
-      </a>
-    </div>
+	<form action="https://formspree.io/f/mzdqaepd" method="POST">
+	
+	<table>
+	<tr>
+	<td style="color:#E0F1FF; font-family:Verdana;">Cognome e nome:</td>
+	<td><input type="text" name="name"></td>
+	</tr>
+	
+	<tr>
+	<td style="color:#E0F1FF;">E-mail:</td>
+	<td><input type="email" name="email"></td>
+	</tr>
+	
+	<tr>
+	<td style="color:#E0F1FF;">Oggetto:</td>
+	<td><input type="text" name="subject"></td>
+	</tr>
+	
+	<tr>
+	<td style="color:#E0F1FF;">Testo:</td>
+	<td><textarea name="message" rows="6"></textarea></td>
+	</tr>
+	
+	<tr>
+	<td></td>
+	<td><button type="submit">Invia</button></td>
+	</tr>
+	
+	</table>
+	
+	</form>
   </td>
 
   <!-- COLONNA 2: TESTI DESCRITTIVI -->
